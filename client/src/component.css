@@ -1,0 +1,102 @@
+.component-container {
+    /* flex: 0 0 auto; */
+    width: 100%;
+  overflow: auto;
+    /* display: flex; */
+    /* position: relative; */
+    /* align-items: flex-start; */
+    border-radius: 10px;
+    /* justify-content: flex-start; */
+    background-color: #21212B;
+
+  }
+  .component-container1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .component-checkbox {
+    width: 10px;
+    height: 100%;
+    margin-left: 1px;
+    border: 1px solid #70C4BF;
+    border-radius: 10px;
+  }
+  .component-text {
+    position: relative;
+    margin-left: 40px;
+    border-color: var(--dl-color-gray-black);
+    border-style: hidden;
+    border-width: 0px;
+    text-align: left;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    /* border: 1px solid white; */
+  }
+  .component-container2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .component-text1 {
+    width: 20%;
+  }
+  .component-button {
+    margin: 12px;
+    /* box-shadow: 5px 5px 10px 0px #5a5353; */
+    border-radius: 50px;
+    float: right;
+    width: auto;
+  
+
+
+  }
+  .component-button1 {
+    margin: 5px;
+    /* box-shadow: 5px 5px 10px 0px #584f4f; */
+    border-radius: 50px;
+    float: right;
+    vertical-align:auto;
+    width: auto;
+    /* border: 1px solid white; */
+  }
+  
+.text-strikethrough {
+    text-decoration: line-through;
+    text-decoration-color: #ffffff;
+}
+.icons {
+  float: right;
+  width: auto
+}
+.component-c1 {
+  float: left;
+  width: 60%;
+  margin-top: 0;
+}
+
+.component-c2 {
+  float: right;
+}
+
+.component-check {
+  margin-left: 10px;
+  margin-top: 60%;
+  transform: scale(1.5);
+  top: 0;
+}
+.component-inline {
+  display: inline;
+  /* border: 1px solid white; */
+  float: left;
+  margin-top: 0;
+}
+
+
+
